@@ -46,7 +46,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -57,7 +57,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -69,7 +69,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
