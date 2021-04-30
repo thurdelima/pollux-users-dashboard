@@ -8,13 +8,17 @@
   max-width: 330px;
   padding: 15px;
   margin: 60px auto;
+  background-color: white;
+  border-radius: .3rem;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
 
-  /* width: 100%;
-    padding: 15%;
-    margin: auto;
-    background-color: #614EA6;
-    height: 100vh; */
 }
+
+.icon-ajust {
+    margin: 15px;
+    color: #ced4da;
+}
+
 .form-signin .checkbox {
   font-weight: 400;
 }

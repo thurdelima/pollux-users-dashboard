@@ -10,9 +10,9 @@ function CreateUser() {
         <div className="main-content">
               <div className="content text-center d-flex align-items-center">
                 <form className="form-signin">
-                {/* <img className="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" /> */}
-                {/* <i class="fas fa-user text-black fa-4x"></i> */}
-                <h1 className="h3 mb-3 mt-3 font-weight-normal">Cadastro</h1>
+                
+                <i class="fas fa-user-plus text-black icon-ajust fa-3x"></i>
+                
                 <label for="inputName" className="sr-only">Nome</label>
                 <input type="email" id="inputEmail" className="form-control " placeholder="Seu nome" required autofocus />
                 <label for="inputEmail" className="sr-only">Endereço de email</label>
