@@ -9,14 +9,64 @@
   padding: 15px;
   margin: 60px auto;
   background-color: white;
-  border-radius: .3rem;
+  /* border-radius: .3rem; */
   box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
 
 }
 
 .icon-ajust {
     margin: 15px;
-    color: #ced4da;
+    color: #052851;
+}
+
+.btn-ajust {
+    background-color: #052851;
+    border-color: #052851;
+}
+
+.btn-ajust:hover {
+    background-color: #0D3D78;
+    border-color: #0D3D78;
+}
+
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0D3D78;
+    border-color: #0D3D78;
+}
+
+.ajust-link {
+    color: #052851;
+    
+}
+
+.ajust-link:hover {
+    color: #052851;
+    
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+}
+
+.form-control {
+    border: 1px solid #B7C0C8;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: white;
+    border-color: #B7C0C8 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(96 125 139 / 21%);
+}
+
+
+
+a {
+    text-decoration: none !important;
 }
 
 .form-signin .checkbox {

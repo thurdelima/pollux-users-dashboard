@@ -9,11 +9,6 @@
     padding: 15px;
     margin: 60px auto;
   
-    /* width: 100%;
-      padding: 15%;
-      margin: auto;
-      background-color: #614EA6;
-      height: 100vh; */
   }
   .form-signin .checkbox {
     font-weight: 400;
@@ -46,7 +41,7 @@
   }
 
   .input-align {
-      border-top: transparent;
+      border-top: transparent !important;
   }
 
   .input-align-top {
@@ -58,3 +53,24 @@
   .ajust-button {
       margin: 0px;
   }
+
+
+  .btn-ajust {
+    background-color: #0D3D78;
+    border-color: #0D3D78;
+}
+
+.btn-ajust:hover {
+    background-color: #0D3D78;
+    border-color: #0D3D78;
+}
+
+.ajust-link {
+    color: #052851;
+    
+}
+
+.ajust-link:hover {
+    color: #052851;
+    
+}

@@ -20,3 +20,26 @@ button {
 .aj-button {
     width: 40px;
 }
+
+.ajust-welcome {
+    color: #052851;
+    
+}
+
+.welcome-description {
+    color: #0D3D78
+}
+
+/* .jumbotron {
+    background-color: #b5c1ca;
+} */
+
+.thead-custom {
+   background-color: #052851;
+   color: white;    
+}
+
+tbody tr th, tbody  td  {
+    color: #0D3D78
+}
+

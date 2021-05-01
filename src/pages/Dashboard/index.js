@@ -13,14 +13,14 @@ function Dashboard() {
       <div className="dash-content">
         <div class="jumbotron">
           <div class="container">
-            <h1 class="display-3">Bem-Vindo</h1>
-            <p>
+            <h1 class="display-3 ajust-welcome">Bem-Vindo</h1>
+            <p class="welcome-description">
               is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley
             </p>
             <p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">
+              <a class="btn btn-primary btn-lg btn-ajust" href="#" role="button">
                 Saiba mais &raquo;
               </a>
             </p>
@@ -31,7 +31,7 @@ function Dashboard() {
       <div className="container">
         <div className="row p-3">
           <table class="table">
-            <thead class="thead-dark">
+            <thead class="thead-custom">
               <tr>
                 <th scope="col">id</th>
                 <th scope="col">nome</th>
@@ -46,7 +46,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -57,7 +57,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -69,7 +69,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 

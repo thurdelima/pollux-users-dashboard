@@ -22,11 +22,11 @@ function CreateUser() {
                 <label for="inputRetypePassword" className="sr-only">Repita a Senha</label>
                 <input type="password" id="inputRetypePassword" className="form-control input-align" placeholder="Repita a senha" required />
                 
-                <button className="btn btn-lg btn-primary btn-block ajust-button" type="submit">Cadastrar</button>
+                <button className="btn btn-lg btn-primary btn-block ajust-button btn-ajust" type="submit">Cadastrar</button>
 
                 <div className="opcoes-login text-center mt-5">
                     
-                    <Link to="/" className="mx-2" >Login</Link>
+                    <Link to="/" className="mx-2 ajust-link" >Login</Link>
                 </div>
                 
                 </form>

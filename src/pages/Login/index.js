@@ -20,11 +20,11 @@ function Login() {
                 <input type="password" id="inputPassword" className="form-control" placeholder="Senha" required />
                 
               
-                <Link to="dashboard" className="btn btn-lg btn-primary btn-block" >Login</Link>
+                <Link to="dashboard" className="btn btn-lg btn-primary btn-block btn-ajust" >Login</Link>
 
                 <div className="opcoes-login text-center mt-5">
                     
-                        <Link to="create-user" className="mx-2" >Quero cadastrar</Link>
+                        <Link to="create-user" className="mx-2 ajust-link" >Quero cadastrar</Link>
                     </div>
                 
                 </form>

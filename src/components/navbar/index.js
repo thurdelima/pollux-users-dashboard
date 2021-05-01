@@ -8,7 +8,7 @@ function Navbar() {
 
     return (
        
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top  ajust-menu">
           <a className="navbar-brand" href="#">
             Users
           </a>
