@@ -18,7 +18,7 @@ button {
 }
 
 .table {
-    border-radius: .3rem;
+    border-radius: .25rem;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
 }
 
@@ -41,8 +41,16 @@ button {
 
 .thead-custom {
    background-color: #052851;
-   color: white;    
+   color: white;  
+   
+   border-top-left-radius: .25rem;
+   border-top-right-radius: .25rem;
 }
+
+/* .thead-custom tr {
+    border-top-left-radius: .25rem;
+   border-top-right-radius: .25rem;
+} */
 
 /* tbody tr th, tbody  td  {
     color: #0D3D78
