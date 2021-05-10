@@ -18,21 +18,42 @@ function Dashboard() {
   const data = React.useMemo(
     () => [
       {
-        label: 'Series 1',
-        data: [[0, 1], [1, 2], [2, 4], [3, 2], [4, 7]]
+        label: 'Segunda-feira',
+        data: [[0, 1], [0, 2], [2, 4], [3, 2], [4, 7]]
       },
       {
-        label: 'Series 2',
-        data: [[0, 3], [1, 1], [2, 5], [3, 6], [4, 4]]
+        label: 'Terça-feira',
+        data: [[0, 3], [0, 2], [2, 5], [3, 6], [4, 4]]
+      },
+      {
+        label: 'Quarta-feira',
+        data: [[0, 3], [0, 2], [2, 5], [3, 6], [4, 4]]
+      },
+      {
+        label: 'Quinta-feira',
+        data: [[0, 3], [0, 2], [2, 5], [3, 6], [4, 4]]
+      },
+      {
+        label: 'Sexta-feira',
+        data: [[0, 3], [0, 1], [2, 5], [3, 6], [4, 4]]
       }
     ],
+    []
+  )
+
+  const series = React.useMemo(
+    () => ({
+      type: 'bar'
+    }),
     []
   )
  
   const axes = React.useMemo(
     () => [
-      { primary: true, type: 'linear', position: 'bottom' },
-      { type: 'linear', position: 'left' }
+      // { primary: true, type: 'linear', position: 'bottom' },
+      // { type: 'linear', position: 'left' }
+      { primary: true, type: 'ordinal', position: 'bottom' },
+      { position: 'left', type: 'linear', stacked: false }
     ],
     []
   )
@@ -64,7 +85,7 @@ function Dashboard() {
         width: '100%',
         height: '300px'
       }} >
-            <Chart data={data} axes={axes} tooltip/>
+            <Chart data={data} series={series} axes={axes} tooltip/>
         </div>
         
       </div>
@@ -112,7 +133,7 @@ function Dashboard() {
                 </td>
               </tr>
               <tr>
-                <th scope="row">1</th>
+                <th scope="row">2</th>
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
@@ -124,7 +145,7 @@ function Dashboard() {
                 
               </tr>
               <tr>
-                <th scope="row">1</th>
+                <th scope="row">3</th>
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
