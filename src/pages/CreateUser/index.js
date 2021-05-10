@@ -11,7 +11,7 @@ function CreateUser() {
               <div className="content text-center d-flex align-items-center">
                 <form className="form-signin">
                 
-                <i class="fas fa-user-plus text-black icon-ajust fa-3x"></i>
+                <i class="fas fa-user-plus text-black icon-ajust fa-2x"></i>
                 
                 <label for="inputName" className="sr-only">Nome</label>
                 <input type="email" id="inputEmail" className="form-control " placeholder="Seu nome" required autofocus />

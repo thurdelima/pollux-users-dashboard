@@ -12,6 +12,11 @@ button {
     margin: 5px;
 }
 
+.dash-chart {
+    max-height: 300px;
+    width: 100%;
+}
+
 .table {
     border-radius: .3rem;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
@@ -39,7 +44,7 @@ button {
    color: white;    
 }
 
-tbody tr th, tbody  td  {
+/* tbody tr th, tbody  td  {
     color: #0D3D78
-}
+} */
 

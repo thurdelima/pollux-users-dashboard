@@ -12,7 +12,7 @@ function Login() {
             <div className="content text-center d-flex align-items-center">
                 <form className="form-signin">
                 {/* <img className="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" /> */}
-                <i class="fas fa-user text-black fa-3x icon-ajust"></i>
+                <i class="fas fa-user text-black fa-2x icon-ajust"></i>
                
                 <label for="inputEmail" className="sr-only">Endereço de email</label>
                 <input type="email" id="inputEmail" className="form-control" placeholder="Seu email" required autofocus />

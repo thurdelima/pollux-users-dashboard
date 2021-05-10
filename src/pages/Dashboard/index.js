@@ -1,32 +1,87 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import { Link } from "react-router-dom";
 
 import Navbar from "../../components/navbar";
+import { Chart } from 'react-charts'
 
 import "./styles.css";
 
 function Dashboard() {
+  
+  useEffect(() => {
+
+     
+
+  }, [])
+
+  const data = React.useMemo(
+    () => [
+      {
+        label: 'Series 1',
+        data: [[0, 1], [1, 2], [2, 4], [3, 2], [4, 7]]
+      },
+      {
+        label: 'Series 2',
+        data: [[0, 3], [1, 1], [2, 5], [3, 6], [4, 4]]
+      }
+    ],
+    []
+  )
+ 
+  const axes = React.useMemo(
+    () => [
+      { primary: true, type: 'linear', position: 'bottom' },
+      { type: 'linear', position: 'left' }
+    ],
+    []
+  )
+  
+  
   return (
     <>
       <Navbar />
-
       <div className="dash-content">
-        <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-3 ajust-welcome">Bem-Vindo</h1>
-            <p class="welcome-description">
+      
+      <div className="container">
+        <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 mt-3 border-bottom">
+            <h1 className="h2">Dashboard</h1>
+            <div className="btn-toolbar mb-2 mb-md-0">
+              <div className="btn-group mr-2">
+                <button className="btn btn-sm btn-outline-secondary">Compartilhar</button>
+                <button className="btn btn-sm btn-outline-secondary">Exportar</button>
+              </div>
+              <button className="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                Esta semana
+              </button>
+            </div>
+          </div>
+      </div>
+
+      <div className="container mb-3 mt-3">
+        <div className="dash-chart">
+            <Chart data={data} axes={axes} tooltip/>
+        </div>
+        
+      </div>
+
+      {/* <div className="dash-content">
+        <div className="jumbotron">
+          <div className="container">
+            <h1 className="display-3 ajust-welcome">Bem-Vindo</h1>
+            <p className="welcome-description">
               is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley
             </p>
             <p>
-              <a class="btn btn-primary btn-lg btn-ajust" href="#" role="button">
+              <a className="btn btn-primary btn-lg btn-ajust" href="#" role="button">
                 Saiba mais &raquo;
               </a>
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container">
         <div className="row p-3">
@@ -46,7 +101,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button "><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -57,7 +112,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button "><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -69,7 +124,7 @@ function Dashboard() {
                 <td>Mark</td>
                 <td>Otto@email.com</td>
                 <td>
-                    <button type="button" class="btn btn-primary aj-button btn-ajust"><i class="fas fa-user-edit"></i></button>
+                    <button type="button" class="btn btn-primary aj-button "><i class="fas fa-user-edit"></i></button>
 
                     <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                 
@@ -81,6 +136,8 @@ function Dashboard() {
           
         </div>
       </div>
+      </div>
+      
     </>
   );
 }

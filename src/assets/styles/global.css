@@ -22,3 +22,7 @@ body {
   width: 100vw;
   /* max-width: 700px; */
 }
+
+input {
+  margin: 5px 0px 5px 0px;
+}
