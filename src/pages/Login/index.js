@@ -1,7 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+
 import './styles.css';
+import { fadeIn } from 'react-animations'
 
 
 
@@ -10,7 +12,7 @@ function Login() {
     return (
        <div className="main-content">
             <div className="content text-center d-flex align-items-center">
-                <form className="form-signin">
+                <form className="form-signin ">
                 {/* <img className="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" /> */}
                 <i class="fas fa-user text-black fa-2x icon-ajust"></i>
                

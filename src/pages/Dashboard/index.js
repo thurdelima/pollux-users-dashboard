@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
 import { Chart } from 'react-charts'
 
+
 import "./styles.css";
 
 function Dashboard() {
@@ -59,7 +60,10 @@ function Dashboard() {
       </div>
 
       <div className="container mb-3 mt-3">
-        <div className="dash-chart">
+        <div style={{
+        width: '100%',
+        height: '300px'
+      }} >
             <Chart data={data} axes={axes} tooltip/>
         </div>
         
